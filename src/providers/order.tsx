@@ -10,7 +10,7 @@ import { useRouter } from "next/navigation";
 //Criando a nossa interface do dados a serem mostrados no nosso modal
 export interface OrderItemProps{
     id: string;
-    amount: string;
+    amount: number;
     created_at: string;
     order_id: string;
     product_id: string;

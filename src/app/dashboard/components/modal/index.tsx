@@ -41,8 +41,7 @@ export function ModalOrder(){
                    {order.map(item => (
                     <section className={styles.item} key={item.id}>
                          <span>
-                            Quantidade: {item.amount} - <b>{item.product.name}</b> - Kz {parseFloat(item.product.price) 
-                            * item.amount}
+                            Quantidade: {item.amount} - <b>{item.product.name}</b> - Kz {parseFloat(item.product.price) * item.amount}
                          </span>
                          <span className={styles.description}>
                             {item.product.description}
